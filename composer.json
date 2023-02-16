@@ -1,0 +1,35 @@
+{
+    "name": "spt/exception-monitor",
+    "type": "library",
+    "description": "Package for monitoring exceptions in Laravel",
+    "keywords": [
+        "laravel",
+        "exception-monitor",
+        "exceptions"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Spawoz Technologies",
+            "email": "support@spawoz.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Spt\\ExceptionHandling\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Spt\\ExceptionHandling\\ExceptionHandlerServiceProvider"
+            ]
+        }
+    },
+    "require": {
+        "php": "^7.2",
+        "illuminate/support": "5.5.*|5.6.*|5.7.*|5.8.*|^6.0"
+    }
+}
