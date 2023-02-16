@@ -1,4 +1,4 @@
-# SPT Exception Monitor for Laravel
+# Exception Monitor Package for Laravel
 
 ## About
 
